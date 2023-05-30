@@ -1,5 +1,5 @@
 # traffic_accidents_prediction
-Machine learning models to predict if a given traffic accident will end up in casualties
+Machine learning models to predict if a traffic accident will end up in casualties
 
 ## Main objective
 Based on certain variables taken from a traffic accident (e.g. type of vehicle, type of road, time of the accident, main contributing factor, etc) this project aims to develop a machine learning model that can predict if such traffic accident will end up having fatal victims.
