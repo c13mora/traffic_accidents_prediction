@@ -1,0 +1,23 @@
+Dataset,Modelo,Recall,Precision,AUC
+Original,Decision tree (base),0.03797,0.0909,0.5195
+Undersampling (strategy=0.2),Decision tree (base),0.36708,0.00386,0.6181
+Undersampling (strategy=’majority’),Decision tree (base),0.60126,0.00234,0.6205
+Undersampling (strategy=0.4),Decision tree (base),0.53164,0.00372,0.6677
+Oversampling (strategy=’minority’),Decision tree (base),0.03797,0.002909,0.5099
+Oversampling (strategy=0.15),Decision tree (base),0.03164,0.00276,0.5066
+SMOTENC (strategy=0.15),Decision tree (base),0.07594,0.00467,0.5242
+SMOTENC (strategy=0.35),Decision tree (base),0.08227,0.00339,0.5304
+Undersampling (strategy=0.25),Bagging (DT),0.41772,0.006762,0.777
+Undersampling (strategy=’majority’),Bagging (DT),0.70886,0.00342,0.788
+Undersampling (strategy=0.4),Bagging (DT),0.5,0.005124,0.7799
+Undersampling (strategy=0.25),Random Forest,0.30379,0.00832,0.7741
+Undersampling (strategy=’majority’),Random Forest,0.75316,0.00357,0.7906
+Undersampling (strategy=0.4),Random Forest,0.46202,0.0065,0.7895
+Original,Balanced Random Forest,0.75316,0.00385,0.8103
+Undersampling (strategy=0.25),LightGBM,0.39873,0.00966,0.8036
+Undersampling (strategy=’majority’),LightGBM,0.7215,0.00343,0.7794
+Undersampling (strategy=0.4),LightGBM,0.5,0.006375,0.7949
+Original (features=42),Random Forest,0.36075,0.00623,0.7738
+Undersampling (strategy=0.4),RF Random Search,0.56329,0.006281,0.809
+Undersampling (strategy=0.4),RF Grid Search,0.59493,0.00601,0.8104
+Original,Balanced RF Random (samp_str=0.25),0.316455,0.00915,0.7894
